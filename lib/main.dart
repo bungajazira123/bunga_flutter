@@ -1,6 +1,12 @@
 import 'package:bunga_project/container/dua.dart';
 import 'package:bunga_project/container/satu.dart';
 import 'package:bunga_project/latihan1/satu.dart';
+import 'package:bunga_project/list_view/contoh_dua.dart';
+import 'package:bunga_project/list_view/contoh_empat.dart';
+import 'package:bunga_project/list_view/contoh_satu.dart';
+import 'package:bunga_project/list_view/contoh_tiga.dart';
+import 'package:bunga_project/list_view/latihan.dart';
+import 'package:bunga_project/list_view/wisata_screen.dart';
 import 'package:bunga_project/row_column/latihan.dart';
 import 'package:bunga_project/row_column/row_column.dart';
 import 'package:bunga_project/row_column/row_satu.dart';
@@ -17,7 +23,7 @@ class BelajarFlutter extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Latihan(),
+      home: Biodata(),
     );
   }
 }
